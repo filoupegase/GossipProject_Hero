@@ -1,0 +1,16 @@
+
+
+<% g = @grossip.find(params[:id]) %>
+
+<h2>Gossip n° <%=g.id%> </h2>
+
+
+
+<h4>USER :</h4>
+  <%=  g.user.first_name   %> <%=  g.user.last_name   %>
+ <br>
+ <h4>SUJET</h4>
+<%=  g.title   %>
+<br>
+<h4>CONTENU</h4>
+<%=  g.content   %>

@@ -8,6 +8,5 @@ class StaticPagesController < ApplicationController
   end
 
   def team
-
   end
 end

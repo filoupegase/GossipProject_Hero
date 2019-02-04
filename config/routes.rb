@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  #get 'gossip/show'
+  #get 'welcome/show'
+  get 'gossip/:id', to: 'gossip#show' , as: 'gossips'
+  get 'static_pages/team'
+  get 'welcome/:user_entry', to: 'welcome#show'
   get 'static_pages/team'
   get 'static_pages/contact'
   get 'static_pages/home'

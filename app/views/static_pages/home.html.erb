@@ -1,13 +1,13 @@
 <center>
 <section>
-<h4><p>Bienvenue sur la motherfucking appli de The Gossip Project by Lille</p></h4>
-
-
+  <br>
+<h4><p> The Gossip Project by Lille</p></h4>
+ <br><br>
 <p>Voici la liste des Users // Gossips</p>
 
 <div>
   <% @gossipall.each do |e| %>
-  <p>  <a href="#"><%= e.user.first_name %> <%= e.user.last_name %> // <%= e.title %> </a></p>
+  <p> <a href="<%=gossips_path(e.id)%>"> <%= e.user.first_name %> <%= e.user.last_name %> // <%= e.title %> </a></p>
 
   <%end%>
 </div>
