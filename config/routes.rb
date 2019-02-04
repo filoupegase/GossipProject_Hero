@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  #get 'user/show'
+  get 'user/:id', to: 'user#show' , as: 'users'
   #get 'gossip/show'
   #get 'welcome/show'
   get 'gossip/:id', to: 'gossip#show' , as: 'gossips'
