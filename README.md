@@ -1,24 +1,21 @@
-# README
+# The Gossip Project app by Lille
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Git clone le projet. Placez-vous à la racine de celui-ci, entrez dans le fichier à l'intérieur de celui-ci puis dans le terminal entrez les commandes suivantes :
 
-Things you may want to cover:
+$ rails db:migrate => si certaines des migrations sont "down" .
 
-* Ruby version
+$ rails db:seed => pour charger une base de donnée aléatoire dans la database locale.
 
-* System dependencies
+$ rails server => pour activer le serveur en mode local
 
-* Configuration
+Naviguez sur la page à l'adresse suivante : http://localhost:3000/static_pages/home
 
-* Database creation
+Expérimentez la landing-page personnalisée à l'adresse suivante : http://localhost:3000/welcome/votre_prénom
 
-* Database initialization
+Built With
 
-* How to run the test suite
+Ruby on rails - The web framework used
 
-* Services (job queues, cache servers, search engines, etc.)
+Authors
 
-* Deployment instructions
-
-* ...
+Alex DNZ
