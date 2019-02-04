@@ -1,0 +1,17 @@
+<center>
+<section>
+<h4><p>Bienvenue sur la motherfucking appli de The Gossip Project by Lille</p></h4>
+
+
+<p>Voici la liste des users</p>
+
+<div>
+  <% @userall.each do |e| %>
+  <p>  <a href="#"><%= e.first_name %> <%= e.last_name %> </a></p>
+
+  <%end%>
+</div>
+
+
+</section>
+</center>
