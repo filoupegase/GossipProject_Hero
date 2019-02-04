@@ -2,15 +2,14 @@
 
 <% g = @grossip.find(params[:id]) %>
 
-<h2>Gossip n° <%=g.id%> </h2>
-
-
-
-<h4>USER :</h4>
-  <%=  g.user.first_name   %> <%=  g.user.last_name   %>
- <br>
- <h4>SUJET</h4>
-<%=  g.title   %>
-<br>
-<h4>CONTENU</h4>
-<%=  g.content   %>
+<br><br><br>
+<center>
+<div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><h2>Gossip n° <%=g.id%> </h2></li>
+    <li class="list-group-item"><h4>AUTEUR :</h4><%=  g.user.first_name   %> <%=  g.user.last_name   %></li>
+    <li class="list-group-item"><h4>SUJET : </h4><%=  g.title   %></li>
+    <li class="list-group-item"><h4>CONTENU : </h4> <%=  g.content   %></li>
+  </ul>
+</div>
+</center>

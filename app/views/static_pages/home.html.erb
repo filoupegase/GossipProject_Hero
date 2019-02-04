@@ -7,8 +7,15 @@
 
 <div>
   <% @gossipall.each do |e| %>
-  <p> <a href="<%=gossips_path(e.id)%>"> <%= e.user.first_name %> <%= e.user.last_name %> // <%= e.title %> </a></p>
-
+  <div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <a href="<%=gossips_path(e.id)%>"> <%= e.user.first_name %> <%= e.user.last_name %> </a>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><%= e.title %></li>
+  </ul>
+</div>
+  <br><br>
   <%end%>
 </div>
 
