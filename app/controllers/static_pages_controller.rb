@@ -1,8 +1,7 @@
 class StaticPagesController < ApplicationController
 
   def home
-    @userall = User.all
-
+    @gossipall = Gossip.all
   end
 
   def contact

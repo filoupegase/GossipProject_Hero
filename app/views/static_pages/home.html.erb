@@ -3,11 +3,11 @@
 <h4><p>Bienvenue sur la motherfucking appli de The Gossip Project by Lille</p></h4>
 
 
-<p>Voici la liste des users</p>
+<p>Voici la liste des Users // Gossips</p>
 
 <div>
-  <% @userall.each do |e| %>
-  <p>  <a href="#"><%= e.first_name %> <%= e.last_name %> </a></p>
+  <% @gossipall.each do |e| %>
+  <p>  <a href="#"><%= e.user.first_name %> <%= e.user.last_name %> // <%= e.title %> </a></p>
 
   <%end%>
 </div>
