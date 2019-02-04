@@ -6,10 +6,11 @@
 <center>
 <div class="card" style="width: 18rem;">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><h2>Gossip n° <%=g.id%> </h2></li>
-    <li class="list-group-item"><h4>AUTEUR :</h4><%=  g.user.first_name   %> <%=  g.user.last_name   %></li>
-    <li class="list-group-item"><h4>SUJET : </h4><%=  g.title   %></li>
-    <li class="list-group-item"><h4>CONTENU : </h4> <%=  g.content   %></li>
+    <li class="list-group-item"><U><h2>Gossip n° <%=g.id%> </h2></U></li>
+    <li class="list-group-item"><h5>DATE DE CRÉATION : </h5><%=  g.created_at   %></li>
+    <li class="list-group-item"><h5>AUTEUR :</h5><%=  g.user.first_name   %> <%=  g.user.last_name   %></li>
+    <li class="list-group-item"><h5>SUJET : </h5><%=  g.title   %></li>
+    <li class="list-group-item"><h5>CONTENU : </h5> <%=  g.content   %></li>
   </ul>
 </div>
 </center>
