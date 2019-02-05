@@ -8,7 +8,7 @@ $ rails db:seed => pour charger une base de donnée aléatoire dans la database 
 
 $ rails server => pour activer le serveur en mode local
 
-Naviguez sur la page à l'adresse suivante : http://localhost:3000/static_pages/home
+Naviguez sur la page à l'adresse suivante : http://localhost:3000/
 
 Expérimentez la landing-page personnalisée à l'adresse suivante : http://localhost:3000/welcome/votre_prénom
 

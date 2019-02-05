@@ -3,13 +3,15 @@
 <center>
   <% e = @userall.find(params[:id]) %>
 
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 20rem;">
 <div class="card-header">
    <h5>NAME :</h5><%= e.first_name %> <%= e.last_name %>
 </div>
 <ul class="list-group list-group-flush">
   <li class="list-group-item"><h5>CITY : </h5> <%= e.city.name %></li>
+  <li class="list-group-item"><h5>AGE : </h5> <%= e.age %></li>
   <li class="list-group-item"><h5>DESCRIPTION : </h5> <%= e.description %></li>
+  <li class="list-group-item"><h5>MAIL : </h5> <%= e.email %></li>
 </ul>
 </div>
 </center>
