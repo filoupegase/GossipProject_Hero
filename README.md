@@ -1,7 +1,8 @@
 # The Gossip Project
--Projet pris d'un repo github. mis en ligne avec l'ébergeur heroku.
+Projet complet mis en ligne avec Heroku :
+https://testgossipsecret.herokuapp.com/static_pages/home
 
-Git clone le projet. Placez-vous à la racine de celui-ci, entrez dans le fichier à l'intérieur de celui-ci puis dans le terminal entrez les commandes suivantes :
+Placez-vous à la racine de celui-ci, entrez dans le fichier à l'intérieur de celui-ci puis dans le terminal entrez les commandes suivantes :
 
 $ rails db:migrate => si certaines des migrations sont "down" .
 
